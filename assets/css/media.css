@@ -1,0 +1,27 @@
+:root {
+  --main-color: #0e0e0e;
+  --second-color: #9a7b50;
+  --third-color: #eaeaea;
+  --white-color: #ffffff;
+  --background-color: rgba(192, 192, 192, 0.4);
+  --placeholder-color: #a1a1a1;
+  --box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+@media (max-width: 576px) {
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 1200px) {
+
+}
+
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
