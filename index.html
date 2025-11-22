@@ -60,26 +60,6 @@
   ##################################################
 -->
     <section
-      class="philosophy-section py-5"
-      style="
-        width: 100%;
-        height: 100%;
-        background-image: url(./assets/images/services/\ philosophy.jpg);
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-
-        transition: transform 0.2s linear;
-        border-radius: 40px;
-      "
-      id="philosophy"
-    ></section>
-    <!-- 
-  ##################################################
-  #                   Projects                     #
-  ##################################################
--->
-    <section
       class="projects-section py-5 animate-section"
       id="projects"
     ></section>
@@ -135,9 +115,25 @@
         <i class="fas fa-long-arrow-up"></i>
       </a>
     </div>
-    
+
+  
+
+    <h1 data-i18n="hero.title"></h1>
+    <p data-i18n="hero.subtitle"></p>
+
+    <section>
+      <h2 data-i18n="about.title"></h2>
+      <p data-i18n="about.text"></p>
+    </section>
+
+    <footer>
+      <p data-i18n="footer.text"></p>
+    </footer>
+
+
     <!-- JS -->
     <script src="./assets/js/jquery-3.7.1.min.js"></script>
+
     <script>
       $("#heroDesktop").load("home/hero-desktop.html");
       $("#heroMobile").load("home/hero-mobile.html");
@@ -149,6 +145,7 @@
       $("#header").load("app/header.html");
       $("#footer").load("app/footer.html");
       $("#loader").load("app/loader.html");
+
     </script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/swiper-bundle.min.js"></script>
