@@ -3,7 +3,9 @@ let btnLang = document.querySelectorAll(".btn-lang");
 // 1) Load language from JSON file
 // ==============================
 async function loadLanguage(lang) {
-  const response = await fetch(`../locales/${lang}.json`);
+  const response = await fetch(
+    `https://raw.githubusercontent.com/ammar-SoftwareEngineer/my-Structure/refs/heads/master/assets/locales/${lang}.json`
+  );
   const translations = await response.json();
   applyTranslations(translations);
   localStorage.setItem("lang", lang);
